@@ -9,7 +9,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def echo(message: types.Message):
-   await message.reply('Start')
+   await message.reply('привет человек')
 
 
 @dp.message_handler(commands=['help'])
